@@ -20,24 +20,20 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
 
 - 🧮 Calculator
 - 🛒 Amazon Clone
-- 🔍 Google Clone
-- 📘 Facebook Clone
 - 🤖 Career Assistant AI
 - 📊 Employee Analytics Dashboard
-- 🎓 E-Learning Platform
 - 💼 Job Portal
 - 🏠 House Price Prediction
 - 📝 Resume Analyzer & Ranker
-- 💡 Digital Wellbeing
 - 📚 StudySpace
-- 🎯 Career & Skills Advisor Chatbot
-- 🏗️ Sustainable Building Materials
-- 📓 Notes Management Webpage
-- 💭 Sentiment Analysis
+- 📓 Notes App
+- 💭 Emotion Detector
+- AI Interview Agent
+- Wanderlust 
 
 ## 💻 Skills
 
-**Programming Languages:** C, Python, JavaScript, C++
+**Programming Languages:** C, Python, JavaScript
 
 **Frontend:** HTML, CSS, Bootstrap, Tailwind CSS, React.js
 
