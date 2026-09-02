@@ -24,12 +24,10 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
 - 📊 Employee Analytics Dashboard
 - 💼 Job Portal
 - 🏠 House Price Prediction
-- 📝 Resume Analyzer & Ranker
 - 📚 StudySpace
 - 📓 Notes App
-- 💭 Emotion Detector
-- AI Interview Agent
-- Wanderlust 
+- 💭 AI Interview Agent
+- 📝 Wanderlust 
 
 ## 💻 Skills
 
@@ -39,11 +37,11 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
 
 **Backend:** Node.js, Express.js, FastAPI
 
-**Databases:** SQL, MySQL, MongoDB, PostgreSQL
+**Databases:** SQL, MySQL, MongoDB
 
 **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Gradio, Scikit-Learn, Selenium
 
-**Tools:** Git, GitHub, VS Code, MS Office, Power BI, Jupyter Notebook
+**Tools:** Git, GitHub, VS Code, MS Office, Power BI, Tableau, Linux, Jupyter Notebook
 
 ## 🚀 Live Demo
 

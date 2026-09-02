@@ -23,14 +23,14 @@ body {
     line-height: 1.6;
 }
 
-/* ── DIVIDER ── */
+
 .divider {
     height: 1px;
     background: linear-gradient(90deg, var(--accent), var(--accent2), transparent);
     margin: 0 8%;
 }
 
-/* ── SECTION COMMON ── */
+
 section { padding: 80px 8%; }
 .section-label {
     font-size: 0.9rem;
@@ -44,7 +44,7 @@ section { padding: 80px 8%; }
     margin-bottom: 3rem;
 }
 
-/* ── BUTTONS ── */
+
 .btn {
     padding: 12px 26px;
     border-radius: var(--radius);
@@ -59,7 +59,7 @@ section { padding: 80px 8%; }
 .btn-outline { background: transparent; color: var(--accent2); border: 2px solid var(--accent2); }
 .btn:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(124,58,237,.35); }
 
-/* ── NAV ── */
+
 nav {
     position: sticky; top: 0; z-index: 100;
     display: flex; justify-content: space-between; align-items: center;
@@ -76,7 +76,7 @@ nav {
 .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
 .hamburger span { width: 25px; height: 2px; background: var(--text); border-radius: 2px; transition: .3s; }
 
-/* ── HERO ── */
+
 .hero {
     display: flex; justify-content: space-between; align-items: center;
     padding: 100px 8% 120px;
@@ -102,7 +102,7 @@ nav {
     object-fit: cover;
 }
 
-/* ── EXPERIENCE ── */
+
 .timeline { display: flex; flex-direction: column; gap: 1.5rem; }
 .timeline-item {
     display: flex; gap: 1.5rem; align-items: flex-start;
@@ -121,7 +121,7 @@ nav {
     margin-bottom: 0.4rem;
 }
 
-/* ── SKILLS ── */
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
@@ -137,7 +137,7 @@ nav {
 .skill-card img { width: 52px; height: 52px; object-fit: contain; margin-bottom: 0.7rem; }
 .skill-card span { font-size: 0.85rem; color: var(--muted); }
 
-/* ── PROJECTS ── */
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -157,7 +157,7 @@ nav {
 }
 .project-links a:hover { color: var(--accent); }
 
-/* ── CONTACT ── */
+
 .contact-box {
     max-width: 540px; margin: 0 auto;
     background: var(--card); border: 1px solid var(--border);
@@ -174,7 +174,7 @@ nav {
 .contact-link .left-side { display: flex; align-items: center; gap: 0.8rem; font-size: 1rem; }
 .contact-link i { width: 20px; color: var(--accent2); }
 
-/* ── FOOTER ── */
+
 footer {
     background: var(--nav-bg);
     border-top: 1px solid var(--border);
@@ -186,7 +186,7 @@ footer {
 .footer-links a:hover { color: var(--accent2); }
 footer p { color: var(--muted); font-size: 0.85rem; }
 
-/* ── RESPONSIVE ── */
+
 @media (max-width: 768px) {
     .hamburger { display: flex; }
     .nav-menu {

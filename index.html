@@ -27,7 +27,7 @@
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
-        // Load all HTML partials
+        
         async function loadIncludes() {
             const els = document.querySelectorAll('[data-include]');
             await Promise.all([...els].map(async el => {
@@ -35,7 +35,7 @@
                 el.innerHTML = await res.text();
             }));
 
-            // Init typed.js after hero is loaded
+            
             new Typed('#element', {
                 strings: ['Full Stack Web Developer', 'Web Designer', 'Data Analyst', 'Software Tester'],
                 typeSpeed: 55,
@@ -43,7 +43,7 @@
                 loop: true,
             });
 
-            // Hamburger menu
+            
             document.getElementById('hamburger').addEventListener('click', () => {
                 document.getElementById('nav-menu').classList.toggle('open');
             });
